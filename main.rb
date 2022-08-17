@@ -81,8 +81,22 @@ student [:name]="Student Name Here"
 puts student
 # 8.0 Methods
 # TODO: Method with enclosed params
+def count_students(param)
+    puts param    
+    10
+end 
+count = count_students("Hello Ruby methods") 
+puts count  
 
 # TODO: Method with open params
+def count_tms param1, param2
+    param1+param2
+end
+
+counted = count_tms(10,20).to_f
+puts counted
+counted1 = count_tms 10,45
+puts counted1
 
 
 
